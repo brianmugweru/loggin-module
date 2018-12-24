@@ -3,9 +3,11 @@
 Logs all http requests for a node js server
 
 ### API
+```
 const {logOnRequest} = require('logging_module');
 
 app.use(logOnRequest());
+```
 
 ### Explanation
 
