@@ -16,7 +16,6 @@ The logger will log all output to file logging.text in json stringified format w
 ### Example
 ```
 const express = require('express');
-const url = require('url');
 const app = express();
 const {logOnRequest} = require('logging_module');
 
